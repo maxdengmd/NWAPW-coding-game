@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_world_map"
+    tools:context="me.aanyakhaira.hackattack.titlePage">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="590dp"
+        android:layout_height="371dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_gravity="center"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/blue_world_map" />
+
+    <ImageButton
+        android:id="@+id/dubai"
+        android:layout_width="27dp"
+        android:layout_height="23dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/cairo"
+        android:layout_marginEnd="209dp"
+        android:layout_marginRight="209dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/cut_diamond" />
+
+    <TextView
+        android:id="@+id/dubaiText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dubai"
+        android:layout_alignStart="@+id/dubai"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:text="DUBAI"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/abc_search_url_text_selected" />
+
+    <ImageButton
+        android:id="@+id/rio"
+        android:layout_width="27dp"
+        android:layout_height="23dp"
+        android:layout_below="@+id/cairoText"
+        android:layout_marginEnd="82dp"
+        android:layout_marginRight="82dp"
+        android:layout_marginTop="35dp"
+        android:layout_toLeftOf="@+id/cairoText"
+        android:layout_toStartOf="@+id/cairoText"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/cut_diamond" />
+
+    <TextView
+        android:id="@+id/rioText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rio"
+        android:layout_alignLeft="@+id/rio"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_toRightOf="@+id/rio"
+        android:text="RIO"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/abc_search_url_text_selected" />
+
+    <ImageButton
+        android:id="@+id/cairo"
+        android:layout_width="27dp"
+        android:layout_height="23dp"
+        android:layout_alignBottom="@+id/dubaiText"
+        android:layout_toEndOf="@+id/cairoText"
+        android:layout_toRightOf="@+id/cairoText"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/cut_diamond" />
+
+    <TextView
+        android:id="@+id/cairoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cairo"
+        android:layout_centerHorizontal="true"
+        android:text="CAIRO"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/abc_search_url_text_selected" />
+
+    <ImageButton
+        android:id="@+id/paris"
+        android:layout_width="27dp"
+        android:layout_height="23dp"
+        android:layout_above="@+id/cairo"
+        android:layout_marginBottom="31dp"
+        android:layout_toEndOf="@+id/cairoText"
+        android:layout_toRightOf="@+id/cairoText"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/cut_diamond" />
+
+    <TextView
+        android:id="@+id/parisText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/paris"
+        android:layout_toEndOf="@+id/paris"
+        android:layout_toRightOf="@+id/paris"
+        android:text="PARIS"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/abc_search_url_text_selected" />
+
+    <ImageButton
+        android:id="@+id/moscow"
+        android:layout_width="27dp"
+        android:layout_height="23dp"
+        android:layout_above="@+id/paris"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_toEndOf="@+id/dubaiText"
+        android:layout_toRightOf="@+id/dubaiText"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/cut_diamond" />
+
+    <TextView
+        android:id="@+id/moscowText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/moscow"
+        android:layout_toEndOf="@+id/moscow"
+        android:layout_toRightOf="@+id/moscow"
+        android:text="MOSCOW"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/abc_search_url_text_selected" />
+
+    <ImageButton
+        android:id="@+id/sydney"
+        android:layout_width="27dp"
+        android:layout_height="23dp"
+        android:layout_below="@+id/rioText"
+        android:layout_toEndOf="@+id/moscow"
+        android:layout_toRightOf="@+id/moscow"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/cut_diamond" />
+
+    <TextView
+        android:id="@+id/sydneyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sydney"
+        android:layout_toEndOf="@+id/sydney"
+        android:layout_toRightOf="@+id/sydney"
+        android:text="SYDNEY"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/abc_search_url_text_selected" />
+
+</RelativeLayout>
