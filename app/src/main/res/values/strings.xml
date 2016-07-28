@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HackAttack</string>
+    <string name="Settings">SETTINGS</string>
+    <string name="btnMusic">btnMusic</string>
+    <string name="btnSoundEffects">btnSoundEffect</string>
+    <string name="btnNewGame">New Game</string>
+    <string name="btnContinueGame">Continue Game</string>
+    <string name="btnResumeGame">Resume Game</string>
+</resources>
